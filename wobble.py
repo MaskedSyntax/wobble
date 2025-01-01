@@ -14,4 +14,5 @@ def print_ascii_side_by_side(letters):
         print(row)
 
 letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-print_ascii_side_by_side(letters)
+text = "Hello I am Aftaab"
+print_ascii_side_by_side(text.upper())

@@ -63,12 +63,12 @@ ooo  oo
 """,
 
 'H' : """
-oo   oo 
-oo   oo 
-ooooooo 
-oo~~~oo 
-oo   oo 
-oo   oo 
+oo   oo
+oo   oo
+ooooooo
+oo~~~oo
+oo   oo
+oo   oo
 """,
 
 'I' : """
@@ -231,5 +231,14 @@ oo  oo'
   oo'   
  oo' oo 
 ooooooo 
+""",
+
+' ' : """
+        
+        
+        
+        
+        
+        
 """
 }
