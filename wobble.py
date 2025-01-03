@@ -12,7 +12,9 @@ def print_ascii_side_by_side(letters):
     for i in range(len(next(iter(letter_lines.values())))):  # Loop over rows
         row = "  ".join(letter_lines[letter][i] for letter in letters)
         print(row)
+        
+    print()
 
 letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-text = "Hello I am Aftaab"
+text = "Hello I am MaskedSyntax"
 print_ascii_side_by_side(text.upper())
